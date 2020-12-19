@@ -1,6 +1,8 @@
 # ORB-SLAM2
 **Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
 
+**19 Dec 2020**: Trying to update to OpenCV 4 and ROS Noetic
+
 **13 Jan 2017**: OpenCV 3 and Eigen 3.3 are now supported.
 
 **22 Dec 2016**: Added AR demo (see section 7).
@@ -78,10 +80,17 @@ We provide some examples to process the live input of a monocular, stereo or RGB
 
 # 3. Building ORB-SLAM2 library and examples
 
-Clone the repository:
+The original repository:
 ```
 git clone https://github.com/raulmur/ORB_SLAM2.git ORB_SLAM2
 ```
+
+Clone the modified repository:
+
+```
+https://github.com/anderdefector/ORB_SLAM2.git
+```
+
 
 We provide a script `build.sh` to build the *Thirdparty* libraries and *ORB-SLAM2*. Please make sure you have installed all required dependencies (see section 2). Execute:
 ```
