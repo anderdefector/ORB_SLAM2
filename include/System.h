@@ -27,6 +27,9 @@
 #include<opencv2/core/core.hpp>
 
 #include "Tracking.h"
+
+#include <unistd.h>
+
 #include "FrameDrawer.h"
 #include "MapDrawer.h"
 #include "Map.h"
